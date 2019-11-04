@@ -30,5 +30,17 @@ interface PostInterface
      */
     public function findPostById( $id );
 
+    /**
+     * @param $id
+     * @param $data
+     * @return mixed
+     */
     public function updatePost( $id, $data );
+
+    /**
+     * @param $id
+     * @param $data
+     * @return mixed
+     */
+    public function deletePost( $id );
 }
